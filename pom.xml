@@ -17,6 +17,14 @@
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/octocat/hello-world</url>
+    </repository>
+  </distributionManagement>
+
   <dependencies>
 
     <!-- XML Bean Generation Dependencies -->
@@ -126,6 +134,29 @@
             </configuration>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>com.google.code.maven-replacer-plugin</groupId>
+        <artifactId>maven-replacer-plugin</artifactId>
+        <version>1.4.1</version>
+        <executions>
+          <execution>
+            <phase>prepare-package</phase>
+            <goals>
+              <goal>replace</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <includes>
+            <include>src/**/*.java</include>
+          </includes>
+          <token>^// Generated on:.*$</token>
+          <value></value>
+          <regexFlags>
+            <regexFlag>MULTILINE</regexFlag>
+          </regexFlags>
+        </configuration>
       </plugin>
     </plugins>
   </build>
