@@ -79,7 +79,6 @@
     <connection>scm:git:git://github.com/reflexdemon/java-saml-metadata-xmlbeans.git</connection>
     <developerConnection>scm:git:git@github.com:reflexdemon/reflexdemon.git</developerConnection>
     <url>https://github.com/reflexdemon/java-saml-metadata-xmlbeans</url>
-    <tag>java-saml-metadata-xmlbeans-1.0</tag>
   </scm>
   <dependencies>
 
