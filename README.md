@@ -1,6 +1,8 @@
-# java-saml-metadata-xmlbeans
+# java-saml-metadata-xmlbeans [![Maven Central](https://img.shields.io/maven-central/v/io.vpv.saml.metadata/java-saml-metadata-xmlbeans.svg)](https://search.maven.org/search?q=g:io.vpv.saml.metadata%20AND%20a:java-saml-metadata-xmlbeans)
+                               
+[![HitCount](http://hits.dwyl.com/reflexdemon/java-saml-metadata-xmlbeans.svg)](http://hits.dwyl.com/reflexdemon/java-saml-metadata-xmlbeans)
 
-This is a project to generate xmlbeans for the [SAML Metadata XML].
+This is a project to generate xmlbeans for the [SAML Metadata XML](https://docs.oasis-open.org/security/saml/v2.0/saml-schema-metadata-2.0.xsd)
 
 
 This will be published to maven artifactory and you should be able to download them soon.
@@ -16,7 +18,6 @@ Links to project resources.
 
 To include this library on to your project,
 ```xml
-<!-- https://oss.sonatype.org/#nexus-search;quick~java-saml-metadata-xmlbeans -->
 <dependency>
   <groupId>io.vpv.saml.metadata</groupId>
   <artifactId>java-saml-metadata-xmlbeans</artifactId>
@@ -26,7 +27,6 @@ To include this library on to your project,
 
 ### Gradle Dependency
 ```groovy
-// https://oss.sonatype.org/#nexus-search;quick~java-saml-metadata-xmlbeans
 compile group: 'io.vpv.saml.metadata', name: 'java-saml-metadata-xmlbeans', version: '1.0'
 ``` 
 
