@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.vpv.saml.metadata</groupId>
   <artifactId>java-saml-metadata-xmlbeans</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>java-saml-metadata-xmlbeans</name>
   <description>Parsing the SAML MetaData</description>
   <url>https://github.com/reflexdemon/java-saml-metadata-xmlbeans</url>
@@ -79,6 +79,7 @@
     <connection>scm:git:git://github.com/reflexdemon/java-saml-metadata-xmlbeans.git</connection>
     <developerConnection>scm:git:git@github.com:reflexdemon/reflexdemon.git</developerConnection>
     <url>https://github.com/reflexdemon/java-saml-metadata-xmlbeans</url>
+    <tag>java-saml-metadata-xmlbeans-1.0</tag>
   </scm>
   <dependencies>
 
