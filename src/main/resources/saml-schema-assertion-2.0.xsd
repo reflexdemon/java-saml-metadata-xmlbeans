@@ -31,7 +31,7 @@
         <attribute name="SPNameQualifier" type="string" use="optional"/>
     </attributeGroup>
     <element name="BaseID" type="saml:BaseIDAbstractType"/>
-    <complexType name="BaseIDAbstractType" abstract="true">
+    <complexType name="BaseIDAbstractType">
         <attributeGroup ref="saml:IDNameQualifiers"/>
     </complexType>
     <element name="NameID" type="saml:NameIDType"/>
@@ -136,7 +136,7 @@
         <attribute name="NotOnOrAfter" type="dateTime" use="optional"/>
     </complexType>
     <element name="Condition" type="saml:ConditionAbstractType"/>
-    <complexType name="ConditionAbstractType" abstract="true"/>
+    <complexType name="ConditionAbstractType"/>
     <element name="AudienceRestriction" type="saml:AudienceRestrictionType"/>
     <complexType name="AudienceRestrictionType">
         <complexContent>
@@ -177,7 +177,7 @@
     </complexType>
     <element name="EncryptedAssertion" type="saml:EncryptedElementType"/>
     <element name="Statement" type="saml:StatementAbstractType"/>
-    <complexType name="StatementAbstractType" abstract="true"/>
+    <complexType name="StatementAbstractType"/>
     <element name="AuthnStatement" type="saml:AuthnStatementType"/>
     <complexType name="AuthnStatementType">
         <complexContent>

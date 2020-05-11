@@ -168,7 +168,7 @@
     </complexType>
 
     <element name="RoleDescriptor" type="md:RoleDescriptorType"/>
-    <complexType name="RoleDescriptorType" abstract="true">
+    <complexType name="RoleDescriptorType">
         <sequence>
             <element ref="ds:Signature" minOccurs="0"/>
             <element ref="md:Extensions" minOccurs="0"/>
@@ -203,7 +203,7 @@
     </simpleType>
     <element name="EncryptionMethod" type="xenc:EncryptionMethodType"/>
     
-    <complexType name="SSODescriptorType" abstract="true">
+    <complexType name="SSODescriptorType">
         <complexContent>
             <extension base="md:RoleDescriptorType">
                 <sequence>
