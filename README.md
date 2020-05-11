@@ -46,7 +46,7 @@ This should result in the `jar` file on the `/target` folder.
 If we wish to publish snapshot build to reporitory please issue the below command.
 
 ```shell script
-./mvnw clean deploy
+./mvnw clean deploy site
 ```
 
 ## Making a Release Build
