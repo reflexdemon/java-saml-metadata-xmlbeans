@@ -52,7 +52,7 @@ import javax.xml.bind.annotation.XmlType;
     IDPSSODescriptorType.class,
     SPSSODescriptorType.class
 })
-public abstract class SSODescriptorType
+public class SSODescriptorType
     extends RoleDescriptorType
 {
 

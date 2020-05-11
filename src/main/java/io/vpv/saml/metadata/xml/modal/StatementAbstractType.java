@@ -37,7 +37,7 @@ import javax.xml.bind.annotation.XmlType;
     AuthzDecisionStatementType.class,
     AttributeStatementType.class
 })
-public abstract class StatementAbstractType {
+public class StatementAbstractType {
 
 
 }

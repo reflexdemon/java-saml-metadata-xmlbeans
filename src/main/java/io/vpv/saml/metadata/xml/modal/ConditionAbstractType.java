@@ -37,7 +37,7 @@ import javax.xml.bind.annotation.XmlType;
     OneTimeUseType.class,
     ProxyRestrictionType.class
 })
-public abstract class ConditionAbstractType {
+public class ConditionAbstractType {
 
 
 }

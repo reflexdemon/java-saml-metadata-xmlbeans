@@ -71,7 +71,7 @@ import javax.xml.namespace.QName;
     AttributeAuthorityDescriptorType.class,
     SSODescriptorType.class
 })
-public abstract class RoleDescriptorType {
+public class RoleDescriptorType {
 
     @XmlElement(name = "Signature", namespace = "http://www.w3.org/2000/09/xmldsig#")
     protected SignatureType signature;

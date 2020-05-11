@@ -228,6 +228,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link RoleDescriptorType }
+     * 
+     */
+    public RoleDescriptorType createRoleDescriptorType() {
+        return new RoleDescriptorType();
+    }
+
+    /**
      * Create an instance of {@link KeyDescriptorType }
      * 
      */
@@ -321,6 +329,14 @@ public class ObjectFactory {
      */
     public AffiliationDescriptorType createAffiliationDescriptorType() {
         return new AffiliationDescriptorType();
+    }
+
+    /**
+     * Create an instance of {@link SSODescriptorType }
+     * 
+     */
+    public SSODescriptorType createSSODescriptorType() {
+        return new SSODescriptorType();
     }
 
     /**
@@ -580,6 +596,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link BaseIDAbstractType }
+     * 
+     */
+    public BaseIDAbstractType createBaseIDAbstractType() {
+        return new BaseIDAbstractType();
+    }
+
+    /**
      * Create an instance of {@link NameIDType }
      * 
      */
@@ -636,6 +660,14 @@ public class ObjectFactory {
     }
 
     /**
+     * Create an instance of {@link ConditionAbstractType }
+     * 
+     */
+    public ConditionAbstractType createConditionAbstractType() {
+        return new ConditionAbstractType();
+    }
+
+    /**
      * Create an instance of {@link AudienceRestrictionType }
      * 
      */
@@ -665,6 +697,14 @@ public class ObjectFactory {
      */
     public AdviceType createAdviceType() {
         return new AdviceType();
+    }
+
+    /**
+     * Create an instance of {@link StatementAbstractType }
+     * 
+     */
+    public StatementAbstractType createStatementAbstractType() {
+        return new StatementAbstractType();
     }
 
     /**

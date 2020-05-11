@@ -33,7 +33,7 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "BaseIDAbstractType")
-public abstract class BaseIDAbstractType {
+public class BaseIDAbstractType {
 
     @XmlAttribute(name = "NameQualifier")
     protected String nameQualifier;
